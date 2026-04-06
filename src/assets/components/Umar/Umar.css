@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.Div-Umar {
+    width: 1440px;
+    height: 183px;
+    top: 188px;
+    background-color: #01AEE7;
+}
+
+.p-Umar1{
+    color: #FFF500;
+}
