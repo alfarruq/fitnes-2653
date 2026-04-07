@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.Div-Umar {
+    width: 1440px;
+    height: 183px;
+    top: 188px;
+    background-color: #01AEE7;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.p-Umar1{
+    color: #FFF500;
+}
+
+h1{
+    color: white;
+    padding-top: 23px;
+}
+
+.h3-Umar{
+    color: white;
+    padding-top: 23px;
+}
+
+.div-Umar2{
+    align-items: center;
+    padding-left: 205px;
+    padding-top: 57px;
+}
+
+.div-Umar3{
+    margin-top: 80px;
+}

@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.container
+
+header {
+    background: white;
+    padding: 15px 50px;
+    border-bottom: 1px solid #ddd;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 10px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.btn-request {
+    background-color: #00aeef;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+.hero-section {
+    background-color: #00aeef;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.info-bg-section {
+    background-color: #f0f0f0;
+    padding: 80px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.white-info-box {
+    background: white;
+    max-width: 800px;
+    padding: 40px;
+    line-height: 1.6;
+}
+
+.founder-section {
+    background-color: #e6e7e8;
+    padding: 60px 0;
+}
+
+.founder-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.founder-card {
+    background: white;
+    padding: 15px;
+    width: 400px;
+}
+
+.founder-card img {
+    width: 100%;
+}
+
+.about-blue-box {
+    background-color: #00aeef;
+    color: white;
+    width: 400px;
+    padding: 40px;
+    text-align: center;
+}
+
+.yellow-divider {
+    width: 50px;
+    height: 3px;
+    background: #ffcc00;
+    margin: 20px auto;
+}
+
+.history-section {
+    padding: 60px 50px;
+    text-align: center;
+    background-color: #e6e7e8;
+}
+
+.history-title {
+    color: #00aeef;
+}
+
+.timeline {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 30px 0;
+}
+
+.year.active {
+    color: #00aeef;
+    border-bottom: 2px solid #00aeef;
+}
+
+.product-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.product-img img {
+    width: 400px;
+}
