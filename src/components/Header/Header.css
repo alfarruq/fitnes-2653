@@ -1,0 +1,128 @@
+/* Header.css */
+.header-container {
+    width: 100%;
+    background-color: white;
+    font-family: 'Arial', sans-serif;
+}
+
+.header-top {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo qismi */
+.logo-section {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo-triangle {
+    width: 60px;
+    height: 60px;
+}
+
+.logo-text {
+    font-size: 64px;
+    font-weight: 900;
+    color: #3D3D3D;
+    letter-spacing: -4px;
+    position: relative;
+    line-height: 1;
+}
+
+.logo-text span {
+    font-size: 18px;
+    position: absolute;
+    top: 5px;
+    right: -25px;
+    font-weight: normal;
+}
+
+/* O'ng tarafdagi ma'lumotlar */
+.header-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 15px;
+}
+
+.info-row {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-size: 14px;
+    color: #333;
+}
+
+.lang-selector {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.lang-flag {
+    width: 24px;
+    height: 15px;
+    border: 1px solid #eee;
+}
+
+.phone-number {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+.submit-btn {
+    background-color: #57B0E2; /* Footer bilan bir xil ko'k */
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+    text-transform: uppercase;
+}
+
+.submit-btn:hover {
+    background-color: #4699c7;
+}
+
+/* Navigatsiya qismi */
+.header-nav {
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #eee;
+    padding: 15px 0;
+}
+
+.nav-list {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0 20px;
+}
+
+.nav-list li {
+    font-weight: 800;
+    font-size: 14px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.nav-list li:hover {
+    color: #57B0E2;
+}
+
+.arrow-down {
+    font-size: 10px;
+    margin-left: 3px;
+}
