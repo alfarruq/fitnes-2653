@@ -1,0 +1,90 @@
+/* Footer.css */
+.footer-container {
+    background-color: #57B0E2;
+    color: white;
+    padding: 50px 20px;
+    font-family: sans-serif;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.footer-column h3 {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    font-size: 14px;
+    margin-bottom: 12px;
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.footer-column ul li:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom-text {
+    margin-top: 40px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* Obuna qismi */
+.subscribe-group {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.subscribe-group input {
+    padding: 10px;
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+.subscribe-btn {
+    background-color: #E2E84A;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+    font-size: 24px;
+}
+
+.social-icons a {
+    color: white;
+    transition: 0.3s;
+}
+
+.social-icons a:hover {
+    opacity: 0.7;
+}
+
+/* Telefon variantida (Responsive) */
+@media (max-width: 768px) {
+    .footer-content {
+        grid-template-columns: 1fr;
+    }
+}
